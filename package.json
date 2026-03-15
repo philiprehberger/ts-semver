@@ -22,9 +22,9 @@
   "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.0.0" },
   "keywords": ["semver", "version", "semantic-versioning", "compare", "range", "parse"],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/ts-semver-ts.git" },
-  "homepage": "https://github.com/philiprehberger/ts-semver-ts#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/ts-semver-ts/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/ts-semver.git" },
+  "homepage": "https://github.com/philiprehberger/ts-semver#readme",
+  "bugs": { "url": "https://github.com/philiprehberger/ts-semver/issues" },
   "author": "Philip Rehberger",
   "engines": { "node": ">=18.0.0" },
   "sideEffects": false
