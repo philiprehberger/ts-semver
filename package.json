@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/semver-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight semver parsing, comparison, and range matching",
   "type": "module",
   "main": "./dist/index.cjs",
