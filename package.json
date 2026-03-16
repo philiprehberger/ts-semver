@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/semver-ts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Lightweight semver parsing, comparison, and range matching",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -8,24 +8,50 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
-      "require": { "types": "./dist/index.d.cts", "default": "./dist/index.cjs" }
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "node --test"
   },
-  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.0.0" },
-  "keywords": ["semver", "version", "semantic-versioning", "compare", "range", "parse"],
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "semver",
+    "version",
+    "semantic-versioning",
+    "compare",
+    "range",
+    "parse"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/ts-semver.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiprehberger/ts-semver.git"
+  },
   "homepage": "https://github.com/philiprehberger/ts-semver#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/ts-semver/issues" },
+  "bugs": {
+    "url": "https://github.com/philiprehberger/ts-semver/issues"
+  },
   "author": "Philip Rehberger",
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "sideEffects": false
 }

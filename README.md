@@ -1,6 +1,6 @@
 # @philiprehberger/ts-semver
 
-[![CI](https://github.com/philiprehberger/ts-semver/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-semver/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-semver/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-semver/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-semver.svg)](https://www.npmjs.com/package/@philiprehberger/ts-semver)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-semver)](LICENSE)
 
@@ -38,6 +38,15 @@ increment('1.2.3', 'minor');     // '1.3.0'
 | `minSatisfying(versions, range)` | Lowest matching version |
 | `increment(version, type)` | Bump version |
 | `sort(versions)` / `rsort(versions)` | Sort versions |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
