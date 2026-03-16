@@ -1,21 +1,21 @@
-# @philiprehberger/semver-ts
+# @philiprehberger/ts-semver
 
-[![CI](https://github.com/philiprehberger/semver-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/semver-ts/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/semver-ts.svg)](https://www.npmjs.com/package/@philiprehberger/semver-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/semver-ts)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-semver/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-semver/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-semver.svg)](https://www.npmjs.com/package/@philiprehberger/ts-semver)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-semver)](LICENSE)
 
 Lightweight semver parsing, comparison, and range matching.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/semver-ts
+npm install @philiprehberger/ts-semver
 ```
 
 ## Usage
 
 ```ts
-import { parse, satisfies, sort, increment } from '@philiprehberger/semver-ts';
+import { parse, satisfies, sort, increment } from '@philiprehberger/ts-semver';
 
 parse('2.1.0-rc.1');
 // { major: 2, minor: 1, patch: 0, prerelease: ['rc', 1] }
